@@ -1,0 +1,25 @@
+{
+"manifest_version": 3,
+"name": "Timer",
+"description": "🍅 Timer: Track your time and manage it effectively!",
+"version": "1.0.0",
+
+"icons": {
+    "16": "icons/digital-clock.png",
+    "32": "icons/digital-clock32.png",
+    "48": "icons/digital-clock48.png",
+    "128": "icons/digital-clock128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/digital-clock.png",
+      "32": "icons/digital-clock32.png",
+      "48": "icons/digital-clock48.png",
+      "128": "icons/digital-clock128.png"
+    }
+  },
+  "permissions":["storage","contextMenus","alarms"],
+  "background": {
+    "service_worker": "service_worker.js"
+  }
+}
